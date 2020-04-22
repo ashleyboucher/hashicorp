@@ -48,7 +48,7 @@ resource "docker_image" "nginx" {
 }
 ```
 
-This code defines your infrastructure. After pasting, you can save and exit the file.
+This codes defines the infrastructure used for this demo. After pasting, you can save and exit the file.
 
 ## Initialize Terraform
 Next, you can initialize Terraform using the `init` command. This command downloads and installs the providers described in your Terraform configuration. 
@@ -145,9 +145,9 @@ Do you want to perform these actions?
   Enter a value: 
 ```
 
-After entering this command, you'll see output in your CLI similar to the output above. Terraform will prompt you for confirmation. Type `yes` into your CLI and hit the enter key to confirm.
+After entering this command, you'll see output in your CLI similar to the output above. Terraform will prompt you for confirmation. Type `yes` into your CLI and hit the ENTER key to confirm.
 
-After confirmation, this command _may_ take a few minutes to run. A message will be displayed once the resource is created.
+After confirmation, this command _may_ take a few minutes to run. Terraform will display a message once the resource is created.
 
 ## Destroy the Infrastructure
 To stop the resources in your Terraform configuration, run the `destroy` command.
