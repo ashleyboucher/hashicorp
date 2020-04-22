@@ -10,7 +10,9 @@ Terraform is a tool for defining and provisioning infrastructure as code (IaC). 
 Before getting started, visit [Terraform.io](https://www.terraform.io/downloads.html) to download the latest appropriate version of Terraform for your system. After the file downloads, unzip it to install.
 
 ## Terraform Configuration
-Now that Terraform is installed, you can start creating infrastructure. The first step is to create a Terraform configuration. We recommend that you create your configuration inside a new directory:
+Now that Terraform is installed, you can start creating infrastructure. The first step is to create a Terraform configuration. Terraform configurations are where you describe your infrastructure resources. For more information on how to write a Terraform configuration, see the [configuration documentation](https://www.terraform.io/docs/configuration/index.html).
+
+We recommend that you create your configuration inside a new directory:
 
 #### CLI commands
 
@@ -27,7 +29,7 @@ Create a configuration file called `main.tf` inside your new directory:
 $ touch main.tf
 ```
 
-Open `main.tf` in a text editor and paste in the following block of code:
+Open `main.tf` in a text editor and paste in the following block of sample code:
 
 ```hcl
 provider "docker" {
@@ -51,7 +53,7 @@ resource "docker_image" "nginx" {
 This codes defines the infrastructure used for this demo. After pasting, you can save and exit the file.
 
 ## Initialize Terraform
-Next, you can initialize Terraform using the `init` command. This command downloads and installs the providers described in your Terraform configuration. 
+Next, from the same directory as your configuration, you can initialize Terraform using the `init` command. This command downloads and installs the providers described in your Terraform configuration. 
 
 #### CLI commands
 
