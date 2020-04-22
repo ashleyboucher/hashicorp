@@ -7,7 +7,7 @@ Terraform is a tool for defining and provisioning infrastructure as code (IaC). 
 - Experience using a CLI
 
 ## Download and Install Terraform
-Before getting start, visit [Terraform.io](https://www.terraform.io/downloads.html) to download the latest appropriate version of Terraform for your system. After the file downloads, unzip it to install.
+Before getting started, visit [Terraform.io](https://www.terraform.io/downloads.html) to download the latest appropriate version of Terraform for your system. After the file downloads, unzip it to install.
 
 ## Terraform Configuration
 Now that Terraform is installed, you can start creating infrastructure. The first step is to create a Terraform configuration. We recommend that you create your configuration inside a new directory:
