@@ -20,13 +20,13 @@ groceries = 'apples', 'oranges', 'lettuce', 'cheddar cheese'
 groceries = ('apples', 'oranges', 'lettuce', 'cheddar cheese')
 ```
 
-Both syntaxes are valid: it's the comma that makes something a tuple, not the parentheses. The parens, however, add helpful visibility and readability to your code.
+Both syntaxes are valid: it's the comma that makes something a tuple, not the parentheses. The parentheses, however, add helpful visibility and readability to your code.
 
 Unlike lists, the requirement of separating each item by a comma also applies to tuples with only one item, whether or not you add the parentheses.
 
 If a tuple only has one element, that element must be followed by a comma, otherwise the python interpreter will assume that you're _referencing_ the item in question, and not creating a tuple.
 
-Code like the following will not produce a one-item tuple. If this code were run in a python interpreter, it would assume that I'm intending to assign the integer 1 to the my_tuple variable.
+Code like the following will not produce a one-item tuple. If this code were run in a python interpreter, it would assume that I'm intending to assign the integer 1 to the `my_tuple` variable.
 
 ```python
 # Not a tuple
@@ -61,16 +61,16 @@ Take the following tuple:
 game_of_thrones_characters = ('Sansa', 'Brienne', 'Tyrion', 'Jon', 'Cersei')
 ```
 
-To access the third item in this tuple, 'Tyrion', I would use the syntax:
+To access the third item in this tuple, `'Tyrion'`, I would use the syntax:
 
 ```python
 game_of_thrones_characters[2]
 ```
 
-Likewise, to access the first item, 'Sansa', I would use the syntax:
+Likewise, to access the first item, `'Sansa'`, I would use the syntax:
 
 ```python
 game_of_thrones_characters[0]
 ```
 
-All of the same operations that work on lists will also work on tuples, with the exception of mutable operations - or ones that change the list, because as we know, tuples are immutable!
+All of the list operations you learned in the last segment will also work on tuples, with the exception of mutable operations - or ones that change the list, because as we know, tuples are immutable!
