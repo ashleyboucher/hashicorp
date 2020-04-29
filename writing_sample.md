@@ -1,3 +1,5 @@
+# Getting to Know Tuples
+
 ## Exploring Tuple Syntax
 Now that you know a little bit more about the difference between a tuple and a list, let's take a look at some code:
 
